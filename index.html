@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Personal Portfolio Website using HTML and CSS | Codehal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2 class="logo"><span>My</span>Portfolio</h2>
+        <nav class="navigation">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <a href="#" class="btn-talk">Let's Talk</a>
+    </header>
+    <section class="home" id="home">
+        <div class="content">
+            <h2>Hi, I'm <span>Hanifa</span></h2>
+            <h4>Web developer in training</h4>
+            <p>I'm a passionate B.Tech student specializing in web development.</p>
+            <div class="btn-group">
+                <a href="#contact">Hire Me</a>
+                <a href="#portfolio">See Projects</a>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/hanifa-shaik"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/hanifa._.shaik._"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://x.com/HanifaShai86135?t=_aV0lWVra-Fhj46tFJyIYQ&s=08"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div> 
+        
+    </section>
+
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <p>I am a B.Tech student passionate about web development. I enjoy building creative, functional, and accessible websites. My skills include HTML, CSS, JavaScript, and some frameworks like React. I'm always looking to learn and apply new technologies.</p>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">Project 1</div>
+            <div class="portfolio-item">Project 2</div>
+            <div class="portfolio-item">Project 3</div>
+            <div class="portfolio-item">Project 4</div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <p><i class="fa-solid fa-envelope"></i> hanifashaik14@gmail.com</p>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Hanifa Shaik. All rights reserved.</p>
+    </footer>
+</body>
+</html>
